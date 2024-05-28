@@ -29,4 +29,5 @@ runs:
     - name: Execute command
       shell: bash
       run: |
+        echo "Executing: pkl ${{ inputs.args }}"
         ./pkl ${{ inputs.args }}
